@@ -1,0 +1,123 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eee;
+}
+
+.header {
+  background-color: rgb(226, 89, 38);
+  text-align: center;
+  padding: 2em 0 2em 0;
+}
+
+.main {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  flex: 5 5 150px;
+  flex-grow: 1;
+}
+
+.leftform {
+  background-color: rgb(226, 89, 38);
+  padding: 3em 0 3em 0;
+  margin: 10px;
+}
+.maincontent {
+  background-color: rgb(0, 0, 0);
+  padding: 0em 0 3em 0;
+  flex: 1 1 100px;
+  margin-top: 10px;
+}
+
+.rigthaside {
+  background-color: rgb(0, 0, 0);
+  padding: 0em 0 3em 0;
+  margin: 10px;
+}
+
+.footer {
+  background: #222;
+  color: #eee;
+  text-align: center;
+  padding: 1em 0 1em 0;
+  font-size: 0.9em;
+}
+
+/*from here more details*/
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+input[type="text"] {
+  width: fit-content;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+button#orderButton {
+  background-color: #f44242;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.asideimgs {
+  width: 25em;
+}
+.forniteimg {
+  display: flex;
+  width: 40em;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.linkhome {
+  display: flexbox;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: gold;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+article {
+  background-color: rgb(38, 38, 38);
+  padding: 40px;
+  color: #eee;
+}
+.god {
+  max-width: 300px;
+  height: auto;
+}
+
+#addToCartButton {
+  font-size: 18px;
+  padding: 10px 10px;
+}
